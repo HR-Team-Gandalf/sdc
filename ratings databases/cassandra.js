@@ -29,3 +29,9 @@ client.connect()
 .then(() => client.execute(createTable))
 .then(() => console.log('Table created successfully'))
 .catch((err) => console.log(err))
+
+// this is fun
+
+// out of sync
+
+const pleasehelp = 2
