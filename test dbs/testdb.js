@@ -1,5 +1,5 @@
 const {Client} = require('cassandra-driver')
-const client = new Client ({contactPoints: ['localhost'], localDataCenter: 'datacenter1'})
+const client = new Client ({contactPoints: ['127.0.0.1'], localDataCenter: 'datacenter1'})
 
 const createKeyspace = `
 CREATE KEYSPACE IF NOT EXISTS reviews_keyspace
