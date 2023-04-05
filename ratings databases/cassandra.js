@@ -35,3 +35,7 @@ client.connect()
 // out of sync
 
 const pleasehelp = 2
+
+const thisisinfeature = 4
+
+let four = 2;
